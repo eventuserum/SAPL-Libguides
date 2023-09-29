@@ -7,7 +7,14 @@ To see examples of Bootstrap options: https://getbootstrap.com/docs/3.4/css/#but
 To see examples of the Bootstrap grid: https://getbootstrap.com/docs/3.4/css/#grid-options<br>
 To see examples of the grid layout: https://getbootstrap.com/docs/3.4/css/#grid-example-basic<br>
 
-## Find the downloadable files for Bootstrap v3.4.1 in this repository as well, go to:
+## To link Bootstrap from the internet:
+Copy-Paste this in between your HTML <head></head> tags:
+```
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+```
+## To download, and link Bootstrap locally, see below:
 ### 1. [bootstrap-3.4.1-dist > css > bootstrap.min.css](https://github.com/eventuserum/SAPL-Libguides/blob/main/bootstrap-3.4.1-dist/css/bootstrap.min.css)
 Copy-Paste this in between your HTML <head></head> tags:
   ```
