@@ -1,5 +1,5 @@
 # SAPL-Libguides
-### Check out the Blondie Bytes Youtube video for a quick TLDR of Bootstrap: https://www.youtube.com/watch?v=yalxT0PEx8c <br>
+### Check out the Blondie Bytes Youtube video for a quick TLDR(Too Long, Didn't Read) of Bootstrap: https://www.youtube.com/watch?v=yalxT0PEx8c <br>
 ## The setup information that allows someone to edit in a similar environment as the current version of SpringShare Libguides platform.
 To find the downloadable link on the Bootstrap site: https://getbootstrap.com/docs/3.4/getting-started/ <br><br>
 
