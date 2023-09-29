@@ -15,45 +15,53 @@
     <!--This enables bootstrap to start working in your local environment.-->
     <link rel="stylesheet" href="bootstrap-3.4.1-dist/css/bootstrap-theme.min.css">
 
+    <!--This enables the same version of jQuery that is on libguides -->
     <script src="bootstrap-3.4.1-dist/js/bootstrap.min.js"></script>
 
+    <!--This enables the same version of action based elements in Bootstrap -- like the accordions -->
     <script src="bootstrap-3.4.1-dist/jquery/jquery.min.js"></script>
 
 
     <!--This is a comment, whatever is in here will never be visible on the page, I use these to keep myself organized-->
+    <!--When developing with a webserver, use these links.
+    ###Webserver if you want to research Google topics: 1) Apache Web Server 2) Nginx Web Server 3) Digital Ocean Web server-->
 
-    <!--These options are available as long as you're running a web server, which doesn't apply to you.-->
-    <!--This enables bootstrap to start working in your local environment.-->
+    <!--This enables bootstrap styles-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
 
     <!--This enables the same version of jQuery that is on libguides -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 
-    <!--This enables the same version of action based elements in Bootstrap -- like the accordions or Modals -->
+    <!--This enables the same version of action based elements in Bootstrap -- like the accordions -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
 </head>
 
 <body class="container text-center">
+    <!-- center all text information in the body-->
     <div class="col-md-12 row text-left" style="border-bottom: 1px solid black; padding: 1rem 0;">
+        <!--"col-md-12" makes the entire body full width 
+            #Observe information in this link https://getbootstrap.com/docs/3.4/css/#grid-options
+            #Inline CSS styles can be applied, *libguides* relies on this system of custom CSS styling-->
+
         <!--In order to start using Bootstrap visit the docs, find any element and study the classes for everything-->
         <a href="https://getbootstrap.com/docs/3.3/" class="btn btn-info" target="_blank">All Bootstrap 3.3 information.</a>
-        <a href="https://getbootstrap.com/docs/3.4/css/#buttons-options" class="btn btn-primary" target="_blank">Different
-            styles of buttons</a>
+        <!--target="_blank" will open links in new tabs when clicked-->
+        <a href="https://getbootstrap.com/docs/3.4/css/#buttons-options" class="btn btn-primary" target="_blank">Different styles of buttons</a>
     </div>
 
     <div class="row">
+        <!--A .row class will occupy all horizontal space on a web page-->
         <div class="col-md-6" style="border-right: 1px solid black; padding: 5rem 0;">
+            <!--"col-md-6" will divide the div (or box) into half the full width of the web page. Observe https://getbootstrap.com/docs/3.4/css/#grid-example-basic-->
             <h1>Downloading Bootstrap</h1>
             <span class="">This is the link where you can download the source code for bootstrap.</span>
-            <a href="https://getbootstrap.com/docs/3.4/getting-started/" class="btn btn-success btn-lg">Download Bootstrap from
-            the
-            Getting Started Page</a>
+            <a href="https://getbootstrap.com/docs/3.4/getting-started/" class="btn btn-success btn-lg">Download Bootstrap from the Getting Started Page</a>
         </div>
 
         <div class="col-md-6" style="padding: 5rem 0;">
-            <p class="lead" style="line-height: 2rem;">The file is also embedded in this repository. <br><small>Go to
-                bootstrap-3.4.1-dist > css > bootstrap.min.css</small> in the files.</p>
+            <p class="lead" style="line-height: 2rem;">The <strong>downloaded Bootstrap files</strong> are also in this repository. <br><small>Go to
+                    bootstrap-3.4.1-dist > css > bootstrap.min.css</small> in the files.</p>
         </div>
     </div>
 </body>
