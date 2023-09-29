@@ -21,5 +21,6 @@ Copy-Paste this in between your HTML <head></head> tags:
 ```
 ### 3. [bootstrap-3.4.1-dist > jquery > jquery.min.js](https://github.com/eventuserum/SAPL-Libguides/blob/main/bootstrap-3.4.1-dist/jquery/jquery.min.js)
 Copy-Paste this in between your HTML <head></head> tags:
-```<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+```
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 ```
